@@ -1,0 +1,42 @@
+.flex{
+	display: flex;
+}
+
+.justify-content{
+	justify-content: space-between;
+}
+
+.justify-center{
+	justify-content: center;
+}
+
+.align-content{
+	align-items: center;
+}
+
+.block{
+	display: block;
+}
+
+.space-menu{
+	width: 10%;
+	height: 50px;
+	text-align: center;
+	align-content: center;
+	background-color: greenyellow;
+}
+
+.logo{
+	width: 20%;
+	height: 20%;
+	justify-content: left;
+}
+
+header{
+	background-color: #666666;
+}
+
+body{
+	margin: 0;
+}
+
