@@ -37,6 +37,15 @@
 	height: 100%;
 }
 
+.img-size {
+/*	max-inline-size: 100%;*/
+	width: 100%;
+
+	object-position: center;
+	object-fit: cover;
+
+}
+
 header{
 	background-color: #666666;
 }
