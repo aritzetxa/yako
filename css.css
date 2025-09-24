@@ -1,25 +1,18 @@
-.flex{
+.headerrr{
 	display: flex;
-}
-
-.justify-content{
-	justify-content: space-between;
-}
-
-
-.align-content{
 	align-items: center;
 }
 
-.block{
-	display: block;
-}
-
 .space-menu{
-
 	background-color: greenyellow;
 	padding: 18px;
 	border-radius: 5px;
+}
+
+.barraInicio {
+	margin: 0 auto;
+	display: flex;
+	gap: 50px;
 }
 
 .logo-div{
@@ -28,7 +21,6 @@
 }
 
 .logo{
-	justify-content: left;
 	width: 100%;
 	height: 100%;
 }
@@ -36,17 +28,57 @@
 .img-size {
 /*	max-inline-size: 100%;*/
 	width: 100%;
-
 	object-position: center;
 	object-fit: cover;
 
+}
+
+.merch {
+	background-color: yellow;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 150px;
+	margin: 0px 130px 0px 130px;
+	padding: 100px 100px 100px 100px;
+	justify-content: center;
+/*	justify-content: flex-start;*/
+	min-height: 100%;
+}
+
+.producto {
+	background-color: greenyellow;
+/*	padding: 50px 50px 50px 50px;*/
+	height: 490px;
+}
+
+.productoImg {
+	width: 300px;
+	height: 400px;
+	object-fit: cover;
+	display: block;
+}
+
+.precio {
+	margin: 0;
+	height: 40px;
+	text-align: center;
+}
+
+h2 {
+	margin: 0;
+	height: 50px;
+	display: flex;
+/*	justify-content: bot;*/
+	align-items: center;
+	justify-content: center;
 }
 
 header{
 	background-color: #666666;
 }
 
-body{
+html, body{
+	height: 100%;
 	margin: 0;
 }
 
