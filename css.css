@@ -1,12 +1,15 @@
 .headerrr{
 	display: flex;
 	align-items: center;
+	background-color: #FFE15C;
+	height: 120px;
 }
 
 .space-menu{
-	background-color: greenyellow;
+	background-color: #FFE15C;
 	padding: 18px;
 	border-radius: 5px;
+	text-decoration: none;
 }
 
 .barraInicio {
@@ -34,7 +37,7 @@
 }
 
 .merch {
-	background-color: yellow;
+	background-color: #FFE15C;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 150px;
