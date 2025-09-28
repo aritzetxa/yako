@@ -3,6 +3,7 @@
 	align-items: center;
 	background-color: #FFE15C;
 	height: 120px;
+	border-bottom: 4px solid #000;
 }
 
 .space-menu{
@@ -10,6 +11,8 @@
 	padding: 18px;
 	border-radius: 5px;
 	text-decoration: none;
+	font-weight: bold;
+	color: black;
 }
 
 .barraInicio {
@@ -42,16 +45,19 @@
 	flex-wrap: wrap;
 	gap: 150px;
 	margin: 0px 130px 0px 130px;
-	padding: 100px 100px 100px 100px;
+/*	padding: 100px 100px 100px 100px;*/
 	justify-content: center;
 /*	justify-content: flex-start;*/
-	min-height: 100%;
+/*	height: calc(100dvh - 123px);*/
+	flex: 1;
+
 }
 
 .producto {
 	background-color: greenyellow;
 /*	padding: 50px 50px 50px 50px;*/
 	height: 490px;
+	margin-top: 200px;
 }
 
 .productoImg {
@@ -65,6 +71,37 @@
 	margin: 0;
 	height: 40px;
 	text-align: center;
+}
+
+.formularioContacto {
+	display: grid;
+	place-items: center;
+	margin-top: 200px;
+}
+
+.formularioContacto form {
+/*	display: flex;
+	flex-wrap: wrap;
+	align-items: ;*/
+}
+
+.formularioContacto h1 {
+	display: grid;
+	place-items: revert;
+}
+
+.clickeable {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
 }
 
 h2 {
@@ -85,3 +122,11 @@ html, body{
 	margin: 0;
 }
 
+input, textarea {
+	border: 1px solid #ddd;
+	width: 400px;
+}
+
+textarea {
+	height: 300px;
+}
