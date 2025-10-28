@@ -79,12 +79,6 @@
 	margin-top: 200px;
 }
 
-.formularioContacto form {
-/*	display: flex;
-	flex-wrap: wrap;
-	align-items: ;*/
-}
-
 .formularioContacto h1 {
 	display: grid;
 	place-items: revert;
