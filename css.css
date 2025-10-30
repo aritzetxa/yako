@@ -40,11 +40,11 @@
 }
 
 .merch {
-	background-color: #FFE15C;
+	background-color: #ECF2E6;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 150px;
-	margin: 0px 130px 0px 130px;
+	margin: 0px 0px 0px 0px;
 /*	padding: 100px 100px 100px 100px;*/
 	justify-content: center;
 /*	justify-content: flex-start;*/
@@ -54,11 +54,17 @@
 }
 
 .producto {
-	background-color: greenyellow;
+	background-color: #FFE15C;
 /*	padding: 50px 50px 50px 50px;*/
 	height: 490px;
 	margin-top: 200px;
+	transition: transform 0.3s ease;
 }
+
+.producto:hover {
+	transform: scale(1.05);
+}
+
 
 .productoImg {
 	width: 300px;
@@ -116,11 +122,104 @@ html, body{
 	margin: 0;
 }
 
-input, textarea {
-	border: 1px solid #ddd;
-	width: 400px;
-}
 
+/*
 textarea {
 	height: 300px;
+} */
+
+/* .formularioProducto {
+	display: flex;
+  	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	box-sizing: border-box
+}
+
+.formularioProducto p{
+	display: inline;        
+    margin: 0;             
+}
+
+.submit {
+	display: block;
+	margin: 20px auto;
+} */
+
+input {
+	border-radius: 8px;
+}
+
+
+/* Quitar flechitas por DeepSeek chrome, opera..*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Quitar flechas en Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.divProducto2 {
+	display: flex;
+	width: 100%;
+}
+
+.imagenProducto {
+	width: 50%;
+}
+
+.imagenProducto img {
+	width: 100%;
+	height: calc(100vh - 120px);
+	object-fit: cover;
+	display: block;
+}
+
+.formularioProducto2 {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ECF2E6;
+}
+
+.formularioProducto2 h1{
+	margin-top: 20%;
+}
+
+.formularioProducto2 h3{
+	margin: 0 auto;
+}
+
+.formularioProducto2 button {
+	width: 250px;
+	height: 45px;
+	margin-top: 50px;
+	background-color: #FFE15C;
+	border: 3px solid #000;
+	font-weight: bold;
+}
+
+input, textarea {
+	border: 1px solid #ddd;
+	width: 50px;
+}
+
+.divSelectorTalla {
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.divSelectorCantidad {
+	display: flex;
+	align-items: center;
+	gap: 20px;
 }
