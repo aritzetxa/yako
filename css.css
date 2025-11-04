@@ -102,6 +102,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
+	background-color: #ECF2E6;
 }
 
 h2 {
@@ -222,4 +223,19 @@ input, textarea {
 	display: flex;
 	align-items: center;
 	gap: 20px;
+}
+
+.formularioContacto textarea {
+	width: 300px;
+	height: 250px;
+} 
+
+.formularioContacto input {
+	width: 300px;
+} 
+
+.carrito {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
 }
